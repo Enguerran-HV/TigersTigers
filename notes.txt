@@ -1,0 +1,19 @@
+Objectif : 
+    - Créer un jeu dans le style de TigerTiger de XC2
+    - Apprendre les bases de GODOT
+
+Etape : 
+    - Apprender les bases du logiciel
+    - Faire une premier prototype simple, sans les designs/animations
+    - Créer les sprites
+    - GG
+
+I - Apprendre les bases
+    - Orienté objets aux quelles ont viens ajouter des fonctions
+
+II - Premier prototype
+
+III - Sprites 
+
+IV - Conclusion
+    

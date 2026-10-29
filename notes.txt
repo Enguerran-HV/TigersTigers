@@ -1,1 +1,49 @@
+Objectif : 
+    - Créer un jeu dans le style de TigerTiger de XC2
+    - Apprendre les bases de GODOT
+    - Réaliser un projet 
+    - Gain et dev de compétences de projet général
+    - Gain et dev de compétences de programme / jeu
 
+Etape : 
+    - Apprender les bases du logiciel
+    - Faire une premier prototype simple
+    - Ajouter sprites, animation, détails
+    - GG
+
+I - Apprendre les bases
+    - Orienté objets aux quelles ont viens ajouter des fonctions
+    - Node 2d, qui vas contenir sprite, animation, collision et script 
+    - Sprite : Simple modèle 2D 
+    - BoxShapeCollider2D : Donner une forme de collision au spirte 
+
+II - Premier prototype
+    - Besoins : 
+            - Déplacements selon des entrées claviers
+            - Limite de l'écran
+            - Collisione avec le décors
+            - Collectable (piece et coffre) (collision avec objets + score)
+            - Placement enemie 
+            - Gestion des dégats (Collision avec enemies + perte de vie)
+            - Ecran start, game over, fin 
+            - Ajout projectile d'attaque (orientation deplacement)
+            - Elimination des enemies (collision projectils-enemies)
+            - Amélioration avec points et trésors gagner 
+            - Selection levels
+            - Histoire ?
+
+    - Réalistion : 
+
+
+III - Sprites et animations
+    - Besoins : 
+        - Personnage : 2D de base, animation de déplacment, de dégats
+        - Enemies : 2D de base, animation idle et /ou de déplacement selon type, de destruction
+        - Décors : 2D de base, variantes aléatoires
+    - Réalistion : 
+        -
+
+
+IV - Conclusion
+
+    

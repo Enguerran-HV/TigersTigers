@@ -14,16 +14,47 @@ Etape :
 I - Apprendre les bases
     - Bases : 
         - Orienté objets aux quelles ont viens ajouter des fonctions
-        - Node 2d, qui vas contenir sprite, animation, collision et script 
-        - Sprite : Simple modèle 2D 
-        - BoxShapeCollider2D : Donner une forme de collision au spirte 
-        -
+        - Node 2d : Polyvalent, rassemblement des nodes, groupe et racine sans besoin particulier
+        - CaractereBody2D : Déplacement avec script, gestion des collision, détection sol et murs : Joueur, Ennemies, PNJ
+        - RigidBody2D : Objet physique, gravité, force, rebond : Projectile, objet qui chute,
+        - StaticBody2D : Possède collision, pas de physique : Mur, sols, plateforme fixe
+        - AnimtableBody2D : Peut être contrôlée, interaction avec autre corp physique, piloté par animation : Platforme mobile, porte, décors mobile
+        - Area2D : Détection de corps entrant et sortant, Pas de blocage phyique, signaux body_entered : collectible, zone de dégat, chekpoint, déclencheurs
+
+        - CollisionShape2D : Forme physique d'un objet, forme au choix, enfant d'un corp physique : Des que besoin de collision simple 
+        - CollisionPolygon2D : Forme de collision personnalisée : Terrains irrégulier, forme particulière
+        - RayCast2D : Lance un rayon dans une direction, detecte objet, connaitre distance et objet : Vérifier si quelque chose est devant
+        - ShapeCast2D : Projet forme particulière dans une direction, détecte objet : Vérification largeur et espace
+
+        - Sprite2D : Affiche image : Décors, icones
+        - AnimatedSpite2D : Succession d'image, multi animation idle run jump etc : Personnage 2D animée
+
+        - Camera2D : Ce que vois le joueur, suit le personnage
+        - Path2D : Chemin courbé, trajectoire personnalisé : suivie de trajet, rails
+        - PathFollow2D : Fait avancer un objet sur le Path2D
+
+        - TileMapLayer : Construction de niveau avec des tuile
+        - Parallax2D : Défillement du décors indépendamment de la caméra
+        - CanvasModulate : Cycle J/N, ambiance global
+
+        - GPUParticle2D : Particule tye feu, fummée, explosion, selon la GPU
+        - CPUPartcile2D : comme GPU mais en utilisant CPU plus simple
+        - AudioStreamPlayer2D : Joue des sons, volume selon distance, ocaliation de sons dans monde 2D : Explosion, enemies
+        - AudioSteamPlayer : Son non spacialisé : Musique, interface
+
+        - NavigationRegion2D : Zone dans la quelle pnj peut se déplacer, calcul chemin auto
+        - NavigationAgent2D : Calcul chemin vers destiantions, récupére prochain point, évite autre agents aubesoin, : Enemies qui poursuit, PNJ qui se déplace dans une ville
+
+
 
     - Elements : 
+        - Personnage : 
         - Input : 
+            - Projet -> Paramètre -> Input -> Donner un nom a l'input, puis associer touche 
         - Déplacement : 
+            - Dans un script : 
         - Collision : 
-        - Animation : 
+            - Dans un Node : Ajouter un enfant -> BoxColliderShape2D
         - HUD : 
        
 

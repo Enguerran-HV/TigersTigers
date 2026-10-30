@@ -12,15 +12,26 @@ Etape :
     - GG
 
 I - Apprendre les bases
-    - Orienté objets aux quelles ont viens ajouter des fonctions
-    - Node 2d, qui vas contenir sprite, animation, collision et script 
-    - Sprite : Simple modèle 2D 
-    - BoxShapeCollider2D : Donner une forme de collision au spirte 
+    - Bases : 
+        - Orienté objets aux quelles ont viens ajouter des fonctions
+        - Node 2d, qui vas contenir sprite, animation, collision et script 
+        - Sprite : Simple modèle 2D 
+        - BoxShapeCollider2D : Donner une forme de collision au spirte 
+        -
+
+    - Elements : 
+        - Input : 
+        - Déplacement : 
+        - Collision : 
+        - Animation : 
+        - HUD : 
+       
 
 II - Premier prototype
     - Besoins : 
             - Déplacements selon des entrées claviers
             - Limite de l'écran
+            - Scroll de la caméra (suivie d'un chemin)
             - Collisione avec le décors
             - Collectable (piece et coffre) (collision avec objets + score)
             - Placement enemie 

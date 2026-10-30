@@ -49,12 +49,13 @@ I - Apprendre les bases
 
     - Elements : 
         - Personnage : 
+            - CaraterBody2D
         - Input : 
             - Projet -> Paramètre -> Input -> Donner un nom a l'input, puis associer touche 
         - Déplacement : 
             - Dans un script : 
         - Collision : 
-            - Dans un Node : Ajouter un enfant -> BoxColliderShape2D
+            - Dans un Node : Ajouter un enfant -> ColliderShape2D
         - HUD : 
        
 

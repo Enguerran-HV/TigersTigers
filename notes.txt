@@ -53,6 +53,8 @@ I - Apprendre les bases
         - Input : 
             - Projet -> Paramètre -> Input -> Donner un nom a l'input, puis associer touche 
         - Déplacement : 
+            if Input.is_action_pressed("TOUCHE"):
+		        velocity./y +/-= 1
             - Dans un script : 
         - Collision : 
             - Dans un Node : Ajouter un enfant -> ColliderShape2D
